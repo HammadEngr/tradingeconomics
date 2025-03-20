@@ -1,0 +1,66 @@
+:root {
+  --bg-main-dark: black;
+  --bg-main-lite: white;
+
+  --heading-dark: rgb(60, 138, 255);
+  --heading-lite: rgb(60, 138, 255);
+
+  --hightlight-dark: rgb(255, 0, 0);
+  --highlight-lite: red;
+
+  --highlight-grn-dark: #06806b;
+  --highlight-grn-lite: #06806b;
+
+  --text-dark: rgb(200, 200, 200);
+  --text-lite: black;
+
+  --text-bg-dark: rgb(58, 58, 58);
+  --text-bg-lite: rgb(234, 234, 234);
+
+  --bg-sub-dark: rgb(40, 40, 40);
+  --bg-sub-lite: rgb(230, 230, 230);
+
+  --border-dark: rgb(50, 50, 50);
+  --border-lite: rgb(200, 200, 200);
+
+  /* charts only */
+  --area-chart-line: #2962ff;
+  --area-chart-top: #2962ff;
+  --area-chart-bottom: rgba(41, 98, 255, 0.28);
+  --area-chart-bg: rgba(0, 0, 0, 0);
+  --area-chart-text: var(--text-dark);
+  --area-chart-crosshair: rgba(41, 98, 255, 0.5);
+  --area-chart-label: #2962ff;
+
+  --skeleton-dark-out: rgb(30, 30, 30);
+  --skeleton-dark-in: rgb(50, 50, 50);
+
+  --skeleton-lite-out: rgb(215, 215, 215);
+  --skeleton-lite-in: rgb(185, 185, 185);
+}
+
+.dark {
+  --bg: var(--bg-main-dark);
+  --heading: var(--heading-dark);
+  --text: var(--text-dark);
+  --text-bg: var(--text-bg-dark);
+  --highlight: var(--hightlight-dark);
+  --highlight-grn: var(--highlight-grn-dark);
+  --bg-sub: var(--bg-sub-dark);
+  --border: var(--border-dark);
+  --skeleton-out: var(--skeleton-dark-out);
+  --skeleton-in: var(--skeleton-dark-in);
+}
+
+.light {
+  --bg: var(--bg-main-lite);
+  --text: var(--text-lite);
+  --heading: var(--heading-lite);
+  --text-bg: var(--text-bg-lite);
+  --highlight: var(--hightlight-dark);
+  --highlight-grn: var(--highlight-grn-lite);
+  --bg-sub: var(--bg-sub-lite);
+  --border: var(--border-lite);
+  --skeleton-out: var(--skeleton-lite-out);
+  --skeleton-in: var(--skeleton-lite-in);
+}

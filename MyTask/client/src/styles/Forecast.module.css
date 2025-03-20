@@ -1,0 +1,55 @@
+.forecast_warapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(96% / 4);
+  height: 150px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.fc_name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .fc_symbol {
+    color: var(--text);
+    font-size: var(--heading_md);
+    font-weight: bold;
+    color: var(--highlight-grn);
+  }
+  .fc_type_country {
+    display: flex;
+    flex-direction: column;
+    p {
+      color: var(--text);
+      &:first-of-type {
+        font-size: 0.9rem;
+        font-variant: small-caps;
+      }
+      &:last-of-type {
+        font-size: var(--text-mini);
+      }
+    }
+  }
+}
+.fc_box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: var(--text);
+  p {
+    font-size: var(--text-sm);
+  }
+}
+.fc_trend {
+  display: flex;
+  align-items: center;
+}
+.bearish {
+  color: var(--highlight);
+}
+.bullish {
+  color: var(--highlight-grn);
+}

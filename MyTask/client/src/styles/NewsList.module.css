@@ -1,0 +1,20 @@
+.news_list {
+  display: flex;
+  flex-direction: column;
+}
+.nl_heading {
+  font-size: var(--heading_md);
+  font-weight: bold;
+  color: var(--text);
+}
+.nl_list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skeleton {
+  width: calc(96% / 3) !important;
+  height: 160px !important;
+}

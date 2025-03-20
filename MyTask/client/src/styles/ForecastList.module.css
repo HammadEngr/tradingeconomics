@@ -1,0 +1,17 @@
+.fl_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.fl_title {
+  font-size: var(--heading_md);
+  font-weight: bold;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+.fl_box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
